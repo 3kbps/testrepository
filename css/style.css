@@ -1,0 +1,256 @@
+/* Project Fonts 
+
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Otomanopee One', sans-serif;
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: brown;
+    height: 20000px;
+}
+.site{
+    max-width: 1300px;
+    margin: auto;
+}
+/* Header */
+header{
+    background-color: #FDE6B7;
+    border-bottom: 3px solid #A0138E;
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+header img{
+    max-width: 70px;
+    padding-left: 25px;
+    padding-top: 15px;
+}
+nav{
+    margin-top: 15px;
+    float: right;
+    background-color: #FDE6B7;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+    margin-right: 40px;
+    padding-top: 20px;
+    font-size: 17px;
+    font-family: 'Otomanopee One', sans-serif;
+    color: #BB4430;
+}
+/* home page */
+.home{
+    max-width: 100%;
+    background-color: #EC9A6F;
+    padding: 30px;
+    padding-bottom: 40px;
+    border-bottom: 2px solid #772f23;
+    text-align: center;
+
+}
+.home img{
+    max-width: 600px;
+    border-radius: 5px;
+}
+.text1{
+    font-family: 'Nunito Sans', sans-serif;
+    display: inline-block;
+    max-width: 33%;
+    margin-left: 30px;
+    text-align: center;
+    color: #772f23;
+}
+.text1 h1{
+    margin-bottom: 5px;
+    font-family: 'Otomanopee One', sans-serif;
+}
+.text1 h2{
+    margin-bottom: 40px;
+    font-family: 'Otomanopee One', sans-serif;
+}
+.text1 p{
+    font-size: 20px;
+}
+.text1 img{
+    width: 180px;
+    margin-top: 30px;
+}
+/* Products section*/
+
+.products{
+    background-color: #fad487;
+    padding-top: 40px;
+    border-bottom: 1px solid #772f23 ;
+}
+.ns{
+    font-family: 'Otomanopee One', sans-serif;
+    color: #fcf5e7;
+    font-size: 35px;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: #BB4430;
+    max-width: 40%;
+}
+/* ITENS */
+.prod1, .prod{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.prod1 img, .prod img{
+    max-width: 500px;
+    border-radius: 15px;
+}
+.desc{
+    margin-left: 7%;
+    max-width: 30%;
+}
+.desc1{
+    margin-right: 7%;
+    max-width: 30%;
+}
+.desc h2, .desc1 h2{
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 20px;
+    font-family: 'Otomanopee One', sans-serif;
+    color: #BB4430;
+}
+.desc p, .desc1 p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+.sep{
+    height: 1px;
+    border: none;
+    background-color: #772f23;
+    margin: auto;
+    max-width: 75%;
+}
+/* ABOUT US */
+.aboutus{
+    background-color: #5c261c;
+    padding-top: 50px;
+    text-align: center;
+}
+.au{
+    font-family: 'Otomanopee One', sans-serif;
+    color: #fcf5e7;
+    font-size: 35px;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: #BB4430;
+    max-width: 40%;
+}
+.about{
+    display: inline-block;
+    max-width: 45%;
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: left;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-left: 50px;
+    color: #fcf5e7;
+}
+.adress{
+    font-weight: 900;
+    margin-top: 25px;
+}
+/* footer */
+.contact{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    background-color: #FDE6B7;
+    text-align: center;
+}
+.social h2{
+    display: inline-flex;
+    vertical-align: middle;
+    max-width: 15%;
+    font-family: 'Otomanopee One', sans-serif;
+    color: #fcf5e7;
+    font-size: 23px;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: #BB4430;
+}
+.social img{
+    display: inline-flex;
+    vertical-align: middle;
+    margin-left: 30px;
+    width: 50px;
+}
+/* FIXED ICON */
+.fixed{
+    padding: 7px;
+    border: 2px solid #4CAF50;
+    border-radius: 20px;
+    width: 70px;
+    position: fixed;
+    right: 10%;
+    bottom: 3%;
+}
+/* EMAIL AREA */
+.cont{
+    background-color: #FDE6B7;
+}
+.cont h2{
+    display: inline-flex;
+    vertical-align: middle;
+    max-width: 15%;
+    font-family: 'Otomanopee One', sans-serif;
+    color: #fcf5e7;
+    font-size: 23px;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: #BB4430;
+}
+.cont input{
+    box-sizing: 20%;
+}
+
+
+
+
+
+/* RESPONSIVE AREA */
+
+
+@media screen and (max-width: 1030px){
+    header{
+        background-color: #A0138E;
+    }
+}
+
+
+@media screen and (max-width: 800px){
+    header{
+        background-color: aqua;
+    }
+}
+
+
+@media screen and (max-width: 600px){
+    header{
+        background-color:yellowgreen;
+    }
+}
+
